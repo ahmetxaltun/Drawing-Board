@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: arial;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+  background: linear-gradient(90deg, rgba(238, 130, 238, 1) 0%, rgba(0, 209, 255, 1) 100%);;
+}
+
+canvas{
+  border: 5px solid red;
+  width: 95%;
+  height: 90%;
+  /* cursor: url(http://icons.iconarchive.com/icons/designcontest/vintage/32/Patent-Pen-icon.png), auto; */
+  cursor: crosshair;
+  border-radius: 5px;
+}
+
+#mouse{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+#y, #color, #pen, button{
+  margin-left: 10px;
+}
+
+select{
+  background: black;
+  color: white;
+}
+
+button{
+  background: black;
+  color: white;
+  border: 1px solid white;
+  padding: 1px 10px;
+  cursor: pointer;
+}
+
+button:hover{
+  background: white;
+  color: black;
+}
