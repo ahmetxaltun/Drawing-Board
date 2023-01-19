@@ -1,0 +1,29 @@
+<canvas id='canvas'></canvas>
+<div id="mouse">
+  <span id="x">X: 0</span>
+  <span id="y">Y: 0</span>
+  <span id="color">Color: 
+    <select onchange="color(this)">
+      <option selected>Black</option>
+      <option>Green</option>
+      <option>Blue</option>
+      <option>Red</option>
+    </select>
+  </span>
+  <span id="pen">Pen: 
+    <select onchange="thick(this)">
+      <option>1 px</option>
+      <option>2 px</option>
+      <option>3 px</option>
+      <option selected>4 px</option>
+      <option>5 px</option>
+      <option>6 px</option>
+      <option>7 px</option>
+      <option>8 px</option>
+      <option>9 px</option>
+      <option>10 px</option>
+    </select>
+  </span>
+  <button onclick='refresh()'>Refresh</button>
+</div>
+<div id="version"></div>
